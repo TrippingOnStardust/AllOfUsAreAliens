@@ -1,0 +1,42 @@
+penUp();
+moveForward(200);
+gradient();
+function gradient() {
+  penColor("#d16ba5");
+  dot(175);
+  penColor("#c777b9");
+  moveForward(-50);
+  dot(175);
+  penColor("#ba83ca");
+  moveForward(-50);
+  dot(175);
+  penColor("#aa8fd8");
+  moveForward(-50);
+  dot(175);
+  penColor("#9a9ae1");
+  moveForward(-50);
+  dot(175);
+  penColor("#8aa7ec");
+  moveForward(-50);
+  dot(175);
+  penColor("#79b3f4");
+  moveForward(-50);
+  dot(175);
+  penColor("#69bff8");
+  moveForward(-50);
+  dot(175);
+  penColor("#52cffe");
+  moveForward(-50);
+  dot(175);
+  penColor("#41dfff");
+  moveForward(-50);
+  dot(175);
+  penColor("#46eefa");
+  moveForward(-50);
+  dot(175);
+  penColor("#5ffbf1");
+  moveForward(-50);
+  dot(175);
+}
+
+background-image: linear-gradient(to right top, #b54181, #b15297, #ab62ab, #a272bd, #9881cb, #8a91dc, #7aa1e9, #69b0f3, #49c5fd, #2ed8ff, #38eafb, #5ffbf1);
